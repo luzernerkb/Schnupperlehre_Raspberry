@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+#Displays a simulation of the growth of a forest fire on the Scroll Phat
 # Forest fire model cellular automaton. Simulates the growth
 # of trees in a forest, with sporadic outbreaks of forest fires.
 

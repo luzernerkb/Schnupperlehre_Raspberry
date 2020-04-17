@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+#displays a dot which bounce off the edges of the scroll phat
 
 import time
 

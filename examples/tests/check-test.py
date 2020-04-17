@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+#indicates a dotted pattern
 import time
 import math
 

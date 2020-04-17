@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+#This Script displays hello world across the Scroll Phat screen
 import signal
 import time
 

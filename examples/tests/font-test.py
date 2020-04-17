@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+#Displays some characters on the scroll phat
 import time
 import signal
 

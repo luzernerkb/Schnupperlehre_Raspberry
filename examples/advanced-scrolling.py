@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+#This script displays a text (Lines) in a fancy way ->  It switches to the lines as the Words are written in a 2D Array
 import time
 
 import scrollphathd

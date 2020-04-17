@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+#This script displays the current time
 import time
 
 import scrollphathd

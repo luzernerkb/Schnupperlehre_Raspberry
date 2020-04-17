@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+#Displays a animation which fills the Scroll Phat from the right to the left
 import scrollphathd
 
 try:

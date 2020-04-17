@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+#Displays Hello World sideway on the scroll phat
 import time
 
 import scrollphathd

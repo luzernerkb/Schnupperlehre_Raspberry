@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+#Displays the current time vertical on the Scroll Phat (Hours,minutes,seconds)
 import time
 
 import scrollphathd

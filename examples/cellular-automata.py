@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+#This Script displays a Matrix on the Scroll Phat
 # simple CA
 # loops through a bunch of interesting simple CA
 

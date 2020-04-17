@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+#This script shows a straight line which moves vertically over the scroll phat
 import scrollphathd as sphd
 import math
 import time

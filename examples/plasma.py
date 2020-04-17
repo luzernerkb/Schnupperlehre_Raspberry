@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+#Shows a plasma animation on the scroll phat
 import time
 import math
 

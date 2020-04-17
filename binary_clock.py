@@ -1,3 +1,4 @@
+#This script shows the mommentane time
 import time
 import unicodedata
 try:

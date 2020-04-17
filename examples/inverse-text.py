@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+#Displays a specific text
 import signal
 
 import scrollphathd

@@ -1,4 +1,7 @@
 #! /usr/bin/env python
+
+#This script prints the IP address of the Raspberry Pi on the Scroll Phat.If there isnt a IP Adress given, there will be displayed a loading Animation
+
 # -*- coding: utf-8 -*-
 import scrollphathd as sphd
 import math

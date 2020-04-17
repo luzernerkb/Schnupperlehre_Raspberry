@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-#Displays Hello World with a frame around the text
+#Displays a Swirl on the scroll phat
 import time
 import math
 

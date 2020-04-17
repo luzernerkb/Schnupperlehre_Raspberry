@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+#Displays a animation which shows 3 Dots rotating around the Scroll Phat
 import time
 
 import scrollphathd

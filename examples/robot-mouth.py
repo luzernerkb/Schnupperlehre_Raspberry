@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+#Displays a hearth rate on the scroll phat
 import time
 from sys import exit
 

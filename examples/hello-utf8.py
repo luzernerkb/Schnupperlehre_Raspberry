@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
+#Displays all the 256 characters that the Scroll Phat supports on the Phat
 import time
 import signal
 

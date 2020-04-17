@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+#Displays the usage of the CPU on the Scroll Phat
 import sys
 import time
 

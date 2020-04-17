@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+#This Script displays a graph with random values
 import time
 import random
 

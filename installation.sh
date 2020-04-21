@@ -10,7 +10,7 @@ echo Benenne nun den Rasperry pi, so wie du ihn willst.;
 read Hostname
 sudo hostname $Hostname;
 ls;
-sudo mv /home/pi/Desktop/Schnupperlehre/Auto_Start.sh /etc/init.d/;
+sudo mv /home/pi/Documents/Schnupperlehre/Auto_Start.sh /etc/init.d/;
 
 
 

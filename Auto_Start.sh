@@ -3,4 +3,4 @@
 cd /;
 cd /home/pi/Desktop/Schnupperlehre;
 
-python light.py;$
+python ip.sh;

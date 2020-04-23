@@ -6,11 +6,7 @@ pwd;
 
 git clone https://github.com/luzernerkb/Schnupperlehre_Raspberry.git Schnupperlehre
 
-echo Benenne nun den Rasperry pi, so wie du ihn willst.;
-read Hostname
-sudo hostname $Hostname;
-ls;
-sudo mv /home/pi/Documents/Schnupperlehre/Auto_Start.sh /etc/init.d/;
+ExecStart=/usr/bin/python /home/pi/myscript.py > /home/pi/myscript.log 2>&1;
 
 
 

@@ -16,5 +16,11 @@ sudo systemctl daemon-reload;
 sudo systemctl enable myscript.service;
 sudo systemctl status myscript.service
 
+cd /;
+
+cd /home/pi/Documents/Schnupperlehre;
+
+bash Change_Hostanme.sh;
+
 sudo reboot;
 

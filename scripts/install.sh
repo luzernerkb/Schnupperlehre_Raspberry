@@ -34,6 +34,12 @@ if [ $CREATE_SYMLINK = "y" ]; then
     ln -s -f $REPO_PATH/tasks ~/tasks
 fi
 
+printf "Use Customized bash config? (y/n): "
+read -r CUSTOM_BASH
+if [ $CUSTOM_BASH = "y" ]; then
+    cp -f $REPO_PATH/assets/.bashrc ~/.bashrc
+fi
+
 printf "Change Hostname? (y/n): "
 read -r CHANGE_HOSTNAME
 if [ $CHANGE_HOSTNAME = "y" ]; then

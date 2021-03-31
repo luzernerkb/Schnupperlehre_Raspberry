@@ -14,7 +14,7 @@ sudo curl https://get.pimoroni.com/scrollphathd | bash
 git clone --depth 1 $REPO_URL $REPO_PATH
 
 # Copy ipscript service & script file
-sudo cp $REPO_PATH/ipscript.service /lib/systemd/system/
+sudo cp $REPO_PATH/assets/ipscript.service /lib/systemd/system/
 sudo cp $REPO_PATH/scripts/ip.py /usr/local/bin
 # Setting Permissions of ipscript service & script file
 sudo chmod +x /usr/local/bin/ip.py

@@ -26,7 +26,6 @@ sudo chmod 644 /lib/systemd/system/ipscript.service
 printf "Activate ipscript on boot? (y/n): "
 read -r ACTIVATE_IPSCRIPT
 if [ $ACTIVATE_IPSCRIPT = "y" ]; then
-    ExecStart=/usr/bin/python /usr/local/bin/ip.py > $REPO_PATH/logs/ipscript.log 2>&1
     sudo systemctl daemon-reload
     sudo systemctl enable ipscript.service
 fi

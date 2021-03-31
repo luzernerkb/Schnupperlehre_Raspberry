@@ -10,5 +10,5 @@ git clone https://github.com/luzernerkb/Schnupperlehre_Raspberry
 cd Schnupperlehre_Raspberry
 ./install.sh
 cd ..
-rm -rf Schnupperlehre_raspberry
+rm -rf Schnupperlehre_Raspberry
 ```

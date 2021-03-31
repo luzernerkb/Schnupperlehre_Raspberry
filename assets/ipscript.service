@@ -4,7 +4,6 @@ After=multi-user.target
 
 [Service]
 Type=idle
-ExecStart=/usr/bin/python python3 ~/Documents/Schnupperlehre/ip.py
 ExecStart=/usr/env python3 /usr/local/bin/ip.py
 
 [Install]

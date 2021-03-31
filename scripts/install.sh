@@ -22,7 +22,7 @@ sudo chmod 644 /lib/systemd/system/ipscript.service
 
 printf "Activate ipscript on boot? (y/n): "
 read -r ACTIVATE_IPSCRIPT
-if [ ACTIVATE_IPSCRIPT = "y" ]; then
+if [ $ACTIVATE_IPSCRIPT = "y" ]; then
     ExecStart=/usr/bin/python /usr/local/bin/ip.py > $REPO_PATH/logs/ipscript.log 2>&1
     sudo systemctl daemon-reload
     sudo systemctl enable ipscript.service
@@ -30,13 +30,13 @@ fi
 
 printf "Create symlink to tasks in home directory? (y/n): "
 read -r CREATE_SYMLINK
-if [ CREATE_SYMLINK = "y" ]; then
+if [ $CREATE_SYMLINK = "y" ]; then
     ln -s -f $REPO_PATH/tasks ~/tasks
 fi
 
 printf "Change Hostname? (y/n): "
 read -r CHANGE_HOSTNAME
-if [ CHANGE_HOSTNAME = "y" ]; then
+if [ $CHANGE_HOSTNAME = "y" ]; then
     printf "Gib neuen Hostnamen ein: "
     read -r new_Hostname
     sudo hostname $new_Hostname

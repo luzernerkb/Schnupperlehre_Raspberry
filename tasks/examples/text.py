@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import time
-import sphd as sphd
+import scrollphathd as sphd
 
 sphd.write_string("text", brightness=0.5)
 

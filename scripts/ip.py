@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+#!/usr/bin/env python
 import scrollphathd as sphd
 import math
 import time
@@ -6,7 +6,6 @@ import socket
 
 # This script prints the IP address of the Raspberry Pi on the Scroll Phat.If there isnt a IP Adress given, there will be displayed a loading Animation
  
-sphd.rotate(180)
 sphd.clear()
 
 # Data for Loading symbol

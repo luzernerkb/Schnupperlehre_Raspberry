@@ -7,6 +7,9 @@ REPO_PATH=~/Documents/Schnupperlehre
 REPO_URL=https://github.com/krissemicolon-forks/Schnupperlehre_Raspberry.git
 DEPENDENCIES="python3 nano vim"
 
+# Updating System
+sudo apt update
+sudo apt upgrade -y
 # Installing dependencies
 sudo apt install $DEPENDENCIES -y
 sudo curl https://get.pimoroni.com/scrollphathd | bash

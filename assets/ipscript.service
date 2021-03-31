@@ -4,7 +4,7 @@ After=multi-user.target
 
 [Service]
 Type=idle
-ExecStart=/usr/env python3 /usr/local/bin/ip.py
+ExecStart=python3 /usr/local/bin/ip.py
 
 [Install]
 WantedBy=multi-user.target

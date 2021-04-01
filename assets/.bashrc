@@ -3,7 +3,6 @@ BOLD=$(tput bold)
 
 printf "\n\n"
 echo "$BLUE$BOLD   #################"
-echo "$BLUE$BOLD   #       <<<<<<< #"
 echo "$BLUE$BOLD   #      <<<<<<<  #"
 echo "$BLUE$BOLD   #     <<<<<<<   #"
 echo "$BLUE$BOLD   #    <<<<<<<    #"
@@ -12,7 +11,6 @@ echo "$BLUE$BOLD   #   <<<<<<<     #"
 echo "$BLUE$BOLD   #    <<<<<<<    #"
 echo "$BLUE$BOLD   #     <<<<<<<   #"
 echo "$BLUE$BOLD   #      <<<<<<<  #"
-echo "$BLUE$BOLD   #       <<<<<<< #"
 echo "$BLUE$BOLD   #################"
 printf "\n\n"
 

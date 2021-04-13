@@ -4,8 +4,8 @@
 
 # Setting ENV vars
 REPO_PATH=~/Documents/Schnupperlehre
-REPO_URL=https://github.com/krissemicolon-forks/Schnupperlehre_Raspberry.git
-DEPENDENCIES="python3 nano vim"
+REPO_URL=https://github.com/luzernerkb/Schnupperlehre_Raspberry.git
+DEPENDENCIES="python3 nano vim thonny"
 
 # Updating System
 sudo apt update

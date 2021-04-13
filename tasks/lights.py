@@ -2,4 +2,5 @@
 import scrollphathd as sphd
 import math
 import time
-import sleep
+
+sphd.clear()

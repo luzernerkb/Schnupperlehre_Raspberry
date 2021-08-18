@@ -12,12 +12,3 @@ while True:
             sphd.set_pixel(x,y,0.25)
         sphd.show()
         time.sleep(0.3/1.0)
-
-
-## Write your code here
-
-
-
-
-
-

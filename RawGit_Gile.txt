@@ -1,3 +1,0 @@
-git clone https://github.com/EriN-B/Rasperry-pi Schnuppertag_Files;
-
-./Documents/Schnuppertag_Files/installation.sh

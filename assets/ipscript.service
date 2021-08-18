@@ -1,0 +1,10 @@
+[Unit]
+Description=Displays ip address on the Scrollphat HD
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=python3 /usr/local/bin/ip.py
+
+[Install]
+WantedBy=multi-user.target
